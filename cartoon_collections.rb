@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(arr)
   new_arr = []
-  arr.map { |ele| new_arr << ele.capitalizes + "!"}
+  arr.map { |ele| new_arr << ele.capitalize + "!"}
   return new_arr
 end
 
